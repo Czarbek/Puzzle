@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Puzzle.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Puzzle.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\PuzzleEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Source\Puzzle">
+      <UniqueIdentifier>{7EF22767-074F-3C6C-B359-7A1BEF1D5B12}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Puzzle\Puzzle.Build.cs">
+      <Filter>Source\Puzzle</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Puzzle\Puzzle.cpp">
+      <Filter>Source\Puzzle</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Puzzle\Puzzle.h">
+      <Filter>Source\Puzzle</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Puzzle\Test.cpp">
+      <Filter>Source\Puzzle</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Puzzle\Test.h">
+      <Filter>Source\Puzzle</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
